@@ -1,10 +1,13 @@
 *{
-	margin: 0;
+  margin: 0;
 	padding: 0;
+  
 }
 
-.header{
-	height:100vh;
+
+.height{
+  background-color: #928abe80;
+  height: 3500px;
 }
 
 .logo{
@@ -40,12 +43,13 @@ left: initial;
     
     color: white;
     display: block;
-    padding: 3px 22px;
+    padding: 0px 27px;
     text-decoration: none;
     border-radius: 20px;
+ 
 }
 .navbar2{position: relative;
-  top: -1500px;
+  top: 0px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -54,6 +58,7 @@ align-items: center;
   margin: 0%;
   height: 40px;
   box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+  
 }
 
 .navbar2 li{
@@ -67,15 +72,68 @@ list-style: none;
   color: beige;
   margin: 13px 20px;
   font-size: larger;
-
+  padding: 25px 28px;
 }
 .navbar2 li a:hover{
-box-decoration-break: clone;
+color: #bb0000;
 }
  
-.height{
-  height: 1500px;
+
+/* Product Card */
+.card {
+  float: left;
+  background-color: azure;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 315px;
+  max-width: 500px;
+  margin:55px;
+padding: 10px;
+  text-align: center;
+  font-family: arial;
 }
+.card1 img{
+  width: 300px;
+}
+.card2 img{
+  width: 300px;
+  height:199px;
+}
+.card3 img{
+  width: 300px;
+  height:199px;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+.demo {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
 .social{
   list-style: none;
   display: flex;
@@ -94,14 +152,19 @@ box-decoration-break: clone;
 }
 footer{
   position:absolute;
-   bottom:-1500px;
+   bottom:-3500px;
      left: 0;
      right: 0;
      color: white;
      background-color: black;
-     height: 180px;
+     height: 212px;;
      width: 100vw;
      
+ }
+ .item1{
+
+   margin-left: 370px;
+   color: white;
  }
    .footer-content{
        display: flex;
@@ -128,7 +191,7 @@ footer{
        background: #3B5998;
        color: white;
      }
-     .fa-twitter {
+     .fa-telegram {
        background: #55ACEE;
        color: white;
      }

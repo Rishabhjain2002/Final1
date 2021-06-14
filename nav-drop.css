@@ -1,7 +1,9 @@
 .dropbtn {
-    background-color: rgba(0, 255, 255, 0.664);
+  position: relative;
+  top: -7px;
+    background-color: rgba(0, 3, 3, 0.664);
     color: rgb(255, 253, 253);
-    padding: 16px;
+    padding: 4px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -29,12 +31,17 @@
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #af1212}
+  .dropdown-content a:hover {background-color: #e91d1d}
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
   
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  }
+
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;}

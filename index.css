@@ -48,6 +48,10 @@ left: initial;
     border-radius: 20px;
  
 }
+.navbar ul li a:hover{
+  border: 1px solid white;
+
+}
 .navbar2{position: relative;
   top: 0px;
 display: flex;
@@ -72,10 +76,13 @@ list-style: none;
   color: beige;
   margin: 13px 20px;
   font-size: larger;
-  padding: 25px 28px;
+  padding: 6px 32px;
 }
 .navbar2 li a:hover{
-color: #bb0000;
+  font-size: larger;
+color: #f8f1f1;
+border: 1px solid white;
+border-radius: 20px;
 }
  
 
@@ -161,8 +168,13 @@ footer{
      width: 100vw;
      
  }
+ .item{
+   margin-top: 45px;
+ }
  .item1{
-
+  border-style: ridge;
+  border-width: 7px;
+  border-color: #f1f1f7fb;
    margin-left: 370px;
    color: white;
  }
@@ -199,3 +211,4 @@ footer{
       background: #bb0000;
       color: white;
     }
+    
